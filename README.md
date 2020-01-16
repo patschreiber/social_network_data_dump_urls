@@ -1,6 +1,7 @@
 # Social Network Data Dump URLs
-
 A collection of URLs that point to where one can request the data dump a given social network will generate for you.
+
+<br>
 
 ## Table of Contents
 * [Table of Contents](#table-of-contents)
@@ -13,15 +14,16 @@ A collection of URLs that point to where one can request the data dump a given s
   * [7. Twitter (Todo)](#7-twitter)
   * [8. Spotify](#8-spotify)
 
----
+<br>
 
 ## 1. Facebook
 
 The fat cat in the room. Provides a lot of options to generate a dump of one's data. Unfortunately, what you _won't_ find in the export are the the data models and projections they've constructed _from_ your data.
 
-### Quick Link (Go Here)
-
-### [https://www.facebook.com/settings?tab=your_facebook_information](https://www.facebook.com/settings?tab=your_facebook_information)
+### 
+|Quick Link (Go Here)|
+|:----|
+|[https://www.facebook.com/settings?tab=your_facebook_information](https://www.facebook.com/settings?tab=your_facebook_information)<br><sub>(Be sure to log in first!)</sub>|
 
 #### Step-by-step
 
@@ -88,15 +90,16 @@ Additionally, there are quite a few options to filter **Your Information**
 
 > TODO
 
----
+<br>
 
 ## 2. Instagram
 
 Instagram is a subsidiary of Facebook (the Corporation). Assume that any data contributed to Instagram will be thrown into the same pot of "data stew" Facebook (the product) has already vacuumed up.
 
-### Quick Link (Go Here)
-
-* ### [https://www.instagram.com/download/request/](https://www.instagram.com/download/request/)
+### 
+|Quick Link (Go Here)|
+|:----|
+|[https://www.instagram.com/download/request/](https://www.instagram.com/download/request/)<br><sub>(Be sure to log in first!)</sub>|
 
 #### Step-by-step
 
@@ -117,9 +120,10 @@ Instagram is a subsidiary of Facebook (the Corporation). Assume that any data co
 
 Spotify requires a lengthy three-step process to procure a user's data. They state the process can take up to 30 days(!) to complete.
 
-### Quick Link (Go Here)
-
-### [https://www.spotify.com/us/account/privacy/](https://www.spotify.com/us/account/privacy/)
+###
+|Quick Link (Go Here)|
+|:----|
+|[https://www.spotify.com/us/account/privacy/](https://www.spotify.com/us/account/privacy/)<br><sub>(Be sure to log in first!)</sub>|
 
 #### Step-by-step
 
@@ -130,7 +134,7 @@ Spotify requires a lengthy three-step process to procure a user's data. They sta
 
 #### Data Format
 
-TODO: Update when received
+> TODO: Update when received
 
 ---
 
@@ -138,28 +142,7 @@ TODO: Update when received
 
 Please submit a PR if I missed a service or there's a Better Way®. Furthermore, you can reach me via multiple avenues at [https://patschreiber.com/contact](https://patschreiber.com/contact)
 
+## License
 
 
-<!-- ## x. Template
 
-Paragraph about what the service is.
-
----
-
-### Quick Link (Go Here)
-
-### [https://example.com](https://example.com)
-
----
-
-#### Step-by-step
-
-Spotify requires a three-step lengthy process.
-
-1. Spotify sends an email with a link to confirm your request. If the email can't be found fpr whatever reason, it can be resent from the same page.
-2. After confirming the email, a notification will be sent telling the user Spotify is collating their data. **_This can take up to 30 days to complete_**.
-3. An email will be sent when the data is ready to be downloaded.
-
-#### Data Format
-
-The data comes in json-formatted files, along with any posts, stories, or other DMs you may have submitted. -->
