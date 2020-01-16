@@ -11,34 +11,35 @@ A collection of URLs that point to where one can request the data dump a given s
   * [5. Snapchat (Todo)](#5-snapchat)
   * [6. LinkedIn (Todo)](#6-linkedin)
   * [7. Twitter (Todo)](#7-twitter)
-  * [8. Spotify (Todo)](#8-spotify)
+  * [8. Spotify](#8-spotify)
 
-
+---
 
 ## 1. Facebook
 
 The fat cat in the room. Provides a lot of options to generate a dump of one's data. Unfortunately, what you _won't_ find in the export are the the data models and projections they've constructed _from_ your data.
 
----
-
 ### Quick Link (Go Here)
 
 ### [https://www.facebook.com/settings?tab=your_facebook_information](https://www.facebook.com/settings?tab=your_facebook_information)
 
----
-
 #### Step-by-step
 
-1. Log into the web interfacxe.
-2. Click **View** next to **Download Your Information**
-3. Select the desired options (please see the [Data Filtering Options](#data-filtering-options) section for more info)
-4. Click [**Create File**]
-5. An alert is displayed that explains the data may take some time to compile.
-An email with the download link will be sent to the email address associated with the account when the data is ready. Additionally, clicking the **Available Copies** tab will allow a user to download previously-compiled copies of the data.
+1. Log into the web interface at [https://www.facebook.com/login](https://www.facebook.com/login)
+2. Click the **Down Arrow** all the way to the right of the blue navigation bar, then [**Settings**](https://www.facebook.com/settings)
+
+3. Click [**Your Facebook Information**](https://www.facebook.com/settings?tab=your_facebook_information) in the lefthand menu.
+4. Click **View** next to **Download Your Information**
+5. Select the desired options (please see the [Data Filtering Options](#data-filtering-options) section for more info)
+6. Click the blue **Create File**
+7. An alert is displayed that explains the data may take some time to compile.
+
+> An email with the download link will be sent to the email address associated with the account when the data is ready. Additionally, clicking the **Available Copies** tab will allow a user to download previously-compiled copies of the data.
 
 #### [Data Filtering Options](#data-filtering-options)
 
 Facebook provides options on how the data will be compiled. One can filter by the following fields:
+
 |Option Name|Available Values|
 |-----------|----------------|
 |Date Range|`All of my data`, or a start and end date range|
@@ -83,22 +84,24 @@ Additionally, there are quite a few options to filter **Your Information**
   |Security and Login Information|A history of your logins, logouts, periods of time that you've been active on Facebook and the devices you use to access Facebook.|
 </details>
 
+#### Data Format
+
+> TODO
+
+---
+
 ## 2. Instagram
 
 Instagram is a subsidiary of Facebook (the Corporation). Assume that any data contributed to Instagram will be thrown into the same pot of "data stew" Facebook (the product) has already vacuumed up.
 
----
-
 ### Quick Link (Go Here)
 
-### [https://www.instagram.com/download/request/](https://www.instagram.com/download/request/)
-
----
+* ### [https://www.instagram.com/download/request/](https://www.instagram.com/download/request/)
 
 #### Step-by-step
 
-1. Log into the web interface,
-2. Click the above link or navigate to [https://www.instagram.com/accounts/privacy_and_security/](https://www.instagram.com/accounts/privacy_and_security/) and click [Request Download](Request Download
+1. Log into the web interface at [https://www.instagram.com/](https://www.instagram.com/)
+2. Click the above link or navigate to [https://www.instagram.com/accounts/privacy_and_security/](https://www.instagram.com/accounts/privacy_and_security/) and click [Request Download](https://www.instagram.com/download/request/
 )
 3. An email with the download link will be sent to the email address associated with the account.
 
@@ -106,4 +109,57 @@ Instagram is a subsidiary of Facebook (the Corporation). Assume that any data co
 
 #### Data Format
 
-The data comes in json-formatted files, along with any posts, stories, or other DMs you may have submitted.
+> The data comes in json-formatted files, along with any posts, stories, or other DMs you may have submitted.
+
+---
+
+## 8. Spotify
+
+Spotify requires a lengthy three-step process to procure a user's data. They state the process can take up to 30 days(!) to complete.
+
+### Quick Link (Go Here)
+
+### [https://www.spotify.com/us/account/privacy/](https://www.spotify.com/us/account/privacy/)
+
+#### Step-by-step
+
+1. Log into the web interface at [https://accounts.spotify.com/en/login](https://accounts.spotify.com/en/login)
+2. Spotify sends an email with a link to confirm your request. If the email can't be found fpr whatever reason, it can be resent from the same page.
+3. After confirming the email, a notification will be sent telling the user Spotify is collating their data. **_This can take up to 30 days to complete_**. <sub>(As presumably the monkeys :monkey: with typewriters manually transcribe your data)</sub>
+4. An email will be sent when the data is ready to be downloaded.
+
+#### Data Format
+
+TODO: Update when received
+
+---
+
+## Contributing
+
+Please submit a PR if I missed a service or there's a Better Way®. Furthermore, you can reach me via multiple avenues at [https://patschreiber.com/contact](https://patschreiber.com/contact)
+
+
+
+<!-- ## x. Template
+
+Paragraph about what the service is.
+
+---
+
+### Quick Link (Go Here)
+
+### [https://example.com](https://example.com)
+
+---
+
+#### Step-by-step
+
+Spotify requires a three-step lengthy process.
+
+1. Spotify sends an email with a link to confirm your request. If the email can't be found fpr whatever reason, it can be resent from the same page.
+2. After confirming the email, a notification will be sent telling the user Spotify is collating their data. **_This can take up to 30 days to complete_**.
+3. An email will be sent when the data is ready to be downloaded.
+
+#### Data Format
+
+The data comes in json-formatted files, along with any posts, stories, or other DMs you may have submitted. -->
