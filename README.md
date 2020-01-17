@@ -1,5 +1,5 @@
 # Social Network Data Dump URLs
-A collection of URLs that point to where one can request the data dump a given social network will generate for you.
+A collection of URLs that point to where one can request the data dump a given social network will generate for you. I didn't realize more social networks offered this feature, so this repo is an attempt to collate all of the ones that _do_, in addition to providing instructions on how a user can procure their available data. 
 
 <br>
 
@@ -9,7 +9,7 @@ A collection of URLs that point to where one can request the data dump a given s
   * [2. Instagram](#2-instagram)
   * [3. Twitter (Todo)](#3-twitter)
   * [4. Tik Tok (Todo)](#4-tiktok)
-  * [5. Snapchat (Todo)](#5-snapchat)
+  * [5. Snapchat](#5-snapchat)
   * [6. LinkedIn (Todo)](#6-linkedin)
   * [7. Twitter (Todo)](#7-twitter)
   * [8. Spotify](#8-spotify)
@@ -88,7 +88,7 @@ Additionally, there are quite a few options to filter **Your Information**
 
 #### Data Format
 
-> TODO
+> TODO (Too long, didnt document)
 
 <br>
 
@@ -108,13 +108,136 @@ Instagram is a subsidiary of Facebook (the Corporation). Assume that any data co
 )
 3. An email with the download link will be sent to the email address associated with the account.
 
-**Note**: It took about a day to receive the data.
-
 #### Data Format
 
 > The data comes in json-formatted files, along with any posts, stories, or other DMs you may have submitted.
+<details>
+ <summary>Expand to see the folder structure</summary>
+ 
+```
+.
+├── autofill.json
+├── checkout.json
+├── comments.json
+├── connections.json
+├── contacts.json
+├── direct
+│   └── [datetime]
+│       └── [truncated].jpg
+├── likes.json
+├── media.json
+├── messages.json
+├── photos
+│   ├── [datetime]
+│   │   └── [truncated].jpg
+│   └── [datetime]
+│       ├── [truncated].jpg
+│       └── [truncated].jpg
+├── profile
+│   └── [datetime]
+│       └── [truncated].jpg
+├── profile.json
+├── saved.json
+├── searches.json
+├── settings.json
+├── stories
+│   ├── [datestamp]
+│   │   └── [truncated].mp4
+│   └── [datestamp]
+│       ├── [truncated].jpg
+│       └── [truncated].mp4
+├── stories_activities.json
+└── videos
+    ├── [datestamp]
+    │   └── [truncated].mp4
+```
+</details>
 
----
+<br>
+
+## 5. Snapchat
+
+### 
+|Quick Link (Go Here)|
+|:----|
+|[https://accounts.snapchat.com/accounts/downloadmydata](https://accounts.snapchat.com/accounts/downloadmydata)<br><sub>(Be sure to log in first!)</sub>|
+
+#### Step-by-step
+
+1. Log into the web interface at [https://accounts.snapchat.com/accounts/login](https://accounts.snapchat.com/accounts/login)
+2. On the **Manage My Account** page, click [My Data](https://accounts.snapchat.com/accounts/downloadmydata)
+3. Scroll to the bottom and click **Submit Request**
+
+> An email with the download link will be sent to the email address associated with the account when the data is ready.
+
+#### Data Format
+
+> The data is provided in both HTML and JSON formats. The initial folder structure should be similar to:
+<details>
+  <summary>Expand to see the folder structure</summary>
+
+```
+.
+├── html
+│   ├── account.html
+│   ├── account_history.html
+│   ├── bitmoji.html
+│   ├── bitmoji_kit_user.html
+│   ├── cameos_metadata.html
+│   ├── chat_history.html
+│   ├── community_lenses.html
+│   ├── connected_apps.html
+│   ├── faq.html
+│   ├── friends.html
+│   ├── in_app_reports.html
+│   ├── in_app_surveys.html
+│   ├── location_history.html
+│   ├── memories_history.html
+│   ├── purchase_history.html
+│   ├── ranking.html
+│   ├── search_history.html
+│   ├── shared_story.html
+│   ├── shop_history.html
+│   ├── snap_ads.html
+│   ├── snap_games.html
+│   ├── snap_history.html
+│   ├── subscriptions.html
+│   ├── support_note.html
+│   ├── talk_history.html
+│   ├── terms_history.html
+│   └── user_profile.html
+├── index.html
+└── json
+    ├── account.json
+    ├── account_history.json
+    ├── bitmoji.json
+    ├── bitmoji_kit_user.json
+    ├── cameos_metadata.json
+    ├── chat_history.json
+    ├── community_lenses.json
+    ├── connected_apps.json
+    ├── friends.json
+    ├── in_app_reports.json
+    ├── in_app_surveys.json
+    ├── location_history.json
+    ├── memories_history.json
+    ├── purchase_history.json
+    ├── ranking.json
+    ├── search_history.json
+    ├── shared_story.json
+    ├── shop_history.json
+    ├── snap_ads.json
+    ├── snap_games.json
+    ├── snap_history.json
+    ├── subscriptions.json
+    ├── support_note.json
+    ├── talk_history.json
+    ├── terms_history.json
+    └── user_profile.json
+```
+</details>
+
+<br>
 
 ## 8. Spotify
 
